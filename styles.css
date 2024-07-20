@@ -23,7 +23,7 @@ body{
     
 }
 
-form{
+.form{
     padding: 1rem;
     background-color: white;
     display: flex;
@@ -32,7 +32,7 @@ form{
     border: 0.3rem;
 }
 
-form div{
+.form div{
     display: flex;
     flex-direction: column;
 }

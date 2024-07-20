@@ -23,6 +23,7 @@ form.addEventListener('submit', (event) => {
     div.classList.add('task')
     const p=document.createElement('P')
     p.innerText=`${task}`;
+    p.classList.add('border');
 
     const button=document.createElement('BUTTON');
     button.innerText=`remove`;

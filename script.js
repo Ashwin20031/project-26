@@ -2,6 +2,13 @@
 
 function addTask(){
 
+const form = document.getElementById('form')
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault()
+  
+})
+
     const task = document.querySelector("#task").value;
 
 
